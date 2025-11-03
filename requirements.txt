@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pandas
+scikit-learn
+pdfplumber
+pydantic
+# io e base64 são bibliotecas padrão do Python e não precisam de ser listadas
