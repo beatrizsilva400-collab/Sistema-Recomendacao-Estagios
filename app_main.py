@@ -16,7 +16,6 @@ evitando salvar no disco local e preparando para o Cloud Storage.
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-import uvicorn
 import base64
 import pandas as pd
 from sklearn.pipeline import Pipeline
@@ -144,3 +143,4 @@ async def process_cv_base64(payload: FileInput):
 
 if __name__ == "__main__":
     uvicorn.run("app_main:app", host="0.0.0.0", port=8000, reload=True)
+
