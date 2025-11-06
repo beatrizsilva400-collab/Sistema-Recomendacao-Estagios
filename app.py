@@ -72,3 +72,8 @@ def docs():
 # ---------------------------
 if __name__ == '__main__':
     app.run(debug=True)
+
+@app.route('/upload')
+def upload():
+    return "<h2>Página para carregar o CV — ainda em construção!</h2>"
+
