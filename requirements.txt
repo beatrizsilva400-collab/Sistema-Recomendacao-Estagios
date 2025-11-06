@@ -5,5 +5,8 @@ scikit-learn
 pydantic
 gunicorn
 PyPDF2
+flask==3.0.3
+jinja2
 # io e base64 são bibliotecas padrão do Python e não precisam de ser listadas
+
 
