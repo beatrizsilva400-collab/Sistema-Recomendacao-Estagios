@@ -2,7 +2,8 @@ fastapi
 uvicorn
 pandas
 scikit-learn
-pdfplumber
 pydantic
 gunicorn
+PyPDF2
 # io e base64 são bibliotecas padrão do Python e não precisam de ser listadas
+
