@@ -3,10 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <title>Sistema de Recomendação de Estágios</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      background-color: #f6f8fa; 
+      text-align: center; 
+      padding-top: 50px;
+    }
+    h1 { color: #333; }
+    p { color: #555; }
+    a { color: #007bff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
-  <h1>Bem-vindo ao Sistema de Recomendação de Estágios</h1>
-  <a href="{{ url_for('upload') }}">Carregar CV</a> |
-  <a href="{{ url_for('docs') }}">Ver Documentação</a>
+  <h1>Bem-vinda, Beatriz!</h1>
+  <p>A tua aplicação Flask está a funcionar corretamente 🎉</p>
+  <a href="/docs">Ver documentação</a>
 </body>
 </html>
