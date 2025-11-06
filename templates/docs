@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Documentação</title>
+</head>
+<body>
+    <h1>Documentação do Sistema de Recomendação de Estágios</h1>
+    <p>Aqui vais poder consultar informações sobre o funcionamento, API, e integração com o n8n.</p>
+    <p><a href="/">← Voltar à página inicial</a></p>
+</body>
+</html>
